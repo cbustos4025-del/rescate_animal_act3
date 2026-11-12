@@ -1,0 +1,30 @@
+@startuml
+left to right direction
+actor "Ciudadano /\nReportante" as C
+actor "Voluntario" as V
+actor "Veterinario" as VET
+actor "Administrador\ndel Refugio" as A
+VET --|> V
+rectangle "Sistema de Rescate y Adopción Animal" {
+  usecase "Reportar rescate\n(crear caso)" as UC1
+  usecase "Categorizar especie" as UC2
+  usecase "Recibir notificación\nde nuevo rescate" as UC3
+  usecase "Asignar responsable" as UC4
+  usecase "Cambiar estado del caso" as UC5
+  usecase "Registrar tratamiento" as UC6
+  usecase "Consultar historial\n(trazabilidad)" as UC7
+  usecase "Registrar personal" as UC8
+  usecase "Gestionar adopción" as UC9
+}
+C --> UC1
+UC1 .> UC2 : <<include>>
+V --> UC3
+V --> UC5
+V --> UC7
+VET --> UC6
+A --> UC4
+A --> UC8
+A --> UC9
+A --> UC7
+UC9 .> UC5 : <<include>>
+@enduml
