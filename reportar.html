@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reportar Nuevo Rescate</title>
+</head>
+<body>
+    <header>
+        <h1>Refugio Patitas Felices</h1>
+        <p>Modulo de Registro de Animales Rescatados</p>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="reportar.html">Reportar Rescate</a></li>
+            <li><a href="rescates.html">Casos Registrados</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <section>
+            <h2>Formulario de Ingreso de Animal Rescatado</h2>
+            <article>
+                <form action="#" method="POST">
+                    <!-- Categoria mediante lista desplegable (select) -->
+                    <div>
+                        <label for="categoria">Categoria:</label>
+                        <select id="categoria" name="categoria" required>
+                            <option value="">-- Seleccione una categoria --</option>
+                            <option value="perros">Perros</option>
+                            <option value="gatos">Gatos</option>
+                            <option value="fauna">Fauna Silvestre</option>
+                        </select>
+                    </div>
+                    <br>
+
+                    <!-- Niveles de urgencia medica mediante botones de opcion (radio) -->
+                    <div>
+                        <label>Nivel de Urgencia Medica:</label><br>
+                        <input type="radio" id="urgencia-alta" name="urgencia" value="Alta" required>
+                        <label for="urgencia-alta">Alta</label><br>
+
+                        <input type="radio" id="urgencia-media" name="urgencia" value="Media">
+                        <label for="urgencia-media">Media</label><br>
+
+                        <input type="radio" id="urgencia-baja" name="urgencia" value="Baja">
+                        <label for="urgencia-baja">Baja</label>
+                    </div>
+                    <br>
+
+                    <!-- area de texto (textarea) para la descripcion detallada -->
+                    <div>
+                        <label for="descripcion">Descripcion detallada del estado:</label><br>
+                        <textarea id="descripcion" name="descripcion" rows="4" cols="50" placeholder="Describa el estado en que se encontró al animal..." required></textarea>
+                    </div>
+                    <br>
+
+                    <div>
+                        <button type="submit">Registrar Rescate</button>
+                    </div>
+                </form>
+            </article>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Sistema de Rescate y Adopcion. Desarrollado por Carlos.</p>
+    </footer>
+</body>
+</html>
