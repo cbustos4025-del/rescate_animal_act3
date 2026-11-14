@@ -1,7 +1,7 @@
 # Sistema de Control de Rescate y Adopción Animal
 **Universidad Técnica de Manabí — Desarrollo de Sistemas Informáticos**
 **Unidad 1: Desarrollo de software, introducción y paradigmas de diseño**
-**Actividad #1: Estudio de caso** — Autor: _[tu nombre]_ — Repositorio: _[enlace GitHub]_
+**Actividad #1: Estudio de caso** — Autor: Carlos Bustos — Repositorio: https://github.com/cbustos4025-del/rescate_animal_act3/blob/develop/docs/DOCUMENTACION.md
 
 ## 1. Análisis del problema
 ### 1.1 Actores
