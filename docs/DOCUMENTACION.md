@@ -193,7 +193,7 @@ sequenceDiagram
 Gitflow aporta **trazabilidad de versiones** (RNF3), trabajo aislado por funcionalidad, `master` siempre estable y fusiones `--no-ff` que dejan visible el historial.
 
 - **Enlace al repositorio:** https://github.com/cbustos4025-del/rescate_animal_act3
-- **Capturas del historial:** _[inserta captura de `git log --graph --oneline --all` y de GitHub → Insights → Network]_
+- **Capturas del historial:** captura de git log --graph --oneline --all` y de GitHub → Insights → Network
 
 ## 6. Conclusiones
 Con este proyecto aprendí lo útil que es organizar bien el código desde el principio usando patrones de diseño, ya que todo queda separado por funciones y es mucho más fácil de entender y arreglar si algo falla. También me di cuenta de que usar Gitflow en GitHub ayuda bastante a trabajar en orden, porque permite probar cambios en ramas separadas sin dañar la versión principal del programa. En general, fue una buena práctica para entender cómo se estructura y se lleva el control de un sistema real paso a paso.
