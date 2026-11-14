@@ -192,7 +192,7 @@ sequenceDiagram
 
 Gitflow aporta **trazabilidad de versiones** (RNF3), trabajo aislado por funcionalidad, `master` siempre estable y fusiones `--no-ff` que dejan visible el historial.
 
-- **Enlace al repositorio:** _[pega aquí tu URL]_
+- **Enlace al repositorio:** https://github.com/cbustos4025-del/rescate_animal_act3
 - **Capturas del historial:** _[inserta captura de `git log --graph --oneline --all` y de GitHub → Insights → Network]_
 
 ## 6. Conclusiones
